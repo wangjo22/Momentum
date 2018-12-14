@@ -1,4 +1,7 @@
+.clock
+{
 
+}
 
 
 
@@ -9,6 +12,17 @@
 }
 
 
-.showing {
+.showing 
+{
     display: block;
+}
+
+.todo-form
+{
+
+}
+
+.todo-list
+{
+    
 }
