@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 @keyframes fadeIn
 {
     from
@@ -8,6 +10,19 @@
     {
         opacity: 1;
     }    
+}
+
+
+.centered-items
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 20%;
+    position: fixed;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bgImage 
@@ -24,7 +39,7 @@
 
 .clock
 {
-
+    font-size: 100px;
 }
 
 
@@ -33,6 +48,7 @@
 .greeting
 {
     display: none;
+    font-size: 40px;
 }
 
 
@@ -43,10 +59,22 @@
 
 .todo-form
 {
-
+    
 }
 
 .todo-list
 {
+    font-size: 30px;
+    margin-left: -30px;
+}
 
+.weather 
+{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: #89a11b;
 }
